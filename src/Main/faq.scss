@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    background-color: #000000;
+    text-align: center;
+    padding: 0;
+    h3{
+        font-size: 40px;
+        color: #ffffff;
+        font-family: system-ui;
+    }
+}
+.faqSection{
+    margin-top: 20px;
+    background-color: lightblue;
+    padding: 10px 30px;
+    border: 2px solid red;
+    border-radius: 30px;
+    color: red;
+    line-height: 40px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.chakra-accordion_item{
+    button{
+        font-size: 35px;
+    }
+}
+.question{
+    font-size: 20px;
+}
+.answer{
+    color: blue;
+}
+
+
+/** RESPONSIVE **/
+@media screen and (max-width: 968px) {
+    .header{
+        h3{
+            font-size: 30px;
+        }
+    }
+    .faqSection{
+        overflow: hidden;
+        margin-top: 20px;
+        padding: 10px 30px;
+        line-height: 35px;
+        font-size: 22px;
+    }
+    .chakra-accordion_item{
+        button{
+            font-size: 24px;
+        }
+    }
+    .question{
+        font-size: 20px;
+    }
+}
+@media (min-width: 315px) and (max-width: 776px) {
+    .header{
+        h3{
+            font-size: 20px;
+        }
+    }
+    .faqSection{
+        overflow: hidden;
+        margin-top: 20px;
+        padding: 10px 30px;
+        line-height: 25px;
+        font-size: 16px;
+    }
+    .chakra-accordion_item{
+        button{
+            font-size: 20px;
+        }
+    }
+    .question{
+        font-size: 16px;
+    }
+}
